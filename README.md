@@ -1,5 +1,6 @@
 A minimalist gallery viewer for viewing images through DigitalNZ API. A collaboration between Sienna Latham (@clerestories) and Chris McDowall (@fogonwater).
 
+Includes the bottle.py web micro-framework.
 
 INSTRUCTIONS FOR USE
 1) Open a new terminal:
