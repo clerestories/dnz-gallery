@@ -1,23 +1,6 @@
 import json, urllib2, urlparse
 from bottle import route, run, request, redirect, static_file, template
 
-'''
-INSTRUCTIONS FOR USE
-1) Open a new terminal:
-e.g. on mac: CMD + Space to open spotlight. Then type 'terminal' and press enter.
-
-2) Change into the right directory
-e.g. cd web/dnz_gallery
-
-OPTIONAL. Check what files and directories are in a directory by typing: ls 
-
-3) Start the app
-python dnz_gallery.py
-
-4) Visit: http://localhost:8080/
-
-'''
-
 #static content
 STATIC_PATH = 'static/'
 API_KEY = 'XXXXXXXXXXXX' #Put your digitalNZ API key here: http://digitalnz.org/
